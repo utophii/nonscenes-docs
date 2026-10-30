@@ -35,7 +35,7 @@ storage:
       max-lifetime: 1800000      # ms
 ```
 
-The database must exist; tables are created automatically.
+The database must exist, tables are created automatically.
 
 ### PostgreSQL
 
@@ -120,7 +120,7 @@ events:
     subtitle: ''
 ```
 
-Positions are the feet position; the camera is placed `eye-height` above it. See
+Positions are the feet position, the camera is placed `eye-height` above it. See
 [Timeline events](timeline-events.md#title-timing-in-yaml) for event fields.
 
 ## Backups

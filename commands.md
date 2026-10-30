@@ -14,7 +14,7 @@ player-only.
 
 | Command | Description | Permission |
 |---|---|---|
-| `/ns start <name> <seconds>` | Record a cutscene for 1–300 seconds after a countdown. [More](recording.md) | `nonscene.start` |
+| `/ns start <name> <seconds>` | Record a cutscene for 1-300 seconds after a countdown. [More](recording.md) | `nonscene.start` |
 | `/ns stop` | Cancel your own recording, playback or path preview. | `nonscene.stop` |
 | `/ns play <name> [player]` | Play a cutscene. From the console `player` is required. [More](playback.md) | `nonscene.play`, `nonscene.play.others` |
 | `/ns skip [player]` | Skip to the end. Pending command events still run. | `nonscene.skip`, `nonscene.skip.others` |
@@ -29,7 +29,7 @@ player-only.
 | `/ns all` | List cutscenes with their frame counts. | `nonscene.list` |
 | `/ns rename <name> <new-name>` | Rename. Lists triggers that still use the old name. | `nonscene.rename` |
 | `/ns copy <name> <new-name>` | Copy, including timeline events. | `nonscene.copy` |
-| `/ns delete <name>` | Asks for confirmation; run `/ns delete <name> confirm` (or click the button) within 30 s. | `nonscene.delete` |
+| `/ns delete <name>` | Asks for confirmation, then run `/ns delete <name> confirm` (or click the button) within 30 s. | `nonscene.delete` |
 | `/ns export <name>` | Write `plugins/nonscenes/exports/<name>.yml`. [More](storage.md#export-and-import) | `nonscene.export` |
 | `/ns import <file> [new-name]` | Load a file from `exports/`. `.yml` is optional. | `nonscene.import` |
 | `/ns reload` | Reload `config.yml`, `messages.yml` and triggers. Storage changes need a restart. | `nonscene.reload` |

@@ -4,7 +4,7 @@
 /ns play <name> [player]
 ```
 
-Needs `nonscene.play`; playing for someone else also needs `nonscene.play.others`.
+Needs `nonscene.play`. Playing for someone else also needs `nonscene.play.others`.
 From the console the player argument is required.
 
 ## What happens
@@ -46,7 +46,7 @@ While watching, a player can't:
   `cutscene.playback.skip-on-sneak: false`.
 - **Pause** freezes both the camera and the timeline. It works only while the
   camera moves, not during the fades around it.
-- **Stop** cancels the cutscene; remaining events don't run.
+- **Stop** cancels the cutscene, remaining events don't run.
 
 ## Fades
 

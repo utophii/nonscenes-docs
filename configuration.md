@@ -1,6 +1,6 @@
 # Configuration
 
-`plugins/nonscenes/config.yml`. Apply changes with `/ns reload`; only the
+`plugins/nonscenes/config.yml`. Apply changes with `/ns reload`. Only the
 `storage` section needs a server restart. If the file isn't valid YAML, reload
 keeps the current settings and says so.
 
@@ -23,7 +23,7 @@ settings:
 ```yaml
 cutscene:
   playback:
-    update-rate: 60             # camera updates per second, 20–240
+    update-rate: 60             # camera updates per second, 20-240
     eye-height: 1.62            # camera height above the recorded feet position
     fade:
       mode: BLINDNESS           # NONE, BLINDNESS or TITLE

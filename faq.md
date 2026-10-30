@@ -6,7 +6,7 @@ Check the log above `Plugin will be disabled`:
 
 - `packetevents is required and must be installed`: install
   [PacketEvents](https://modrinth.com/plugin/packetevents).
-- `PacketEvents API is not initialized`: PacketEvents failed to start; look for
+- `PacketEvents API is not initialized`: PacketEvents failed to start. Look for
   its own errors earlier in the log, and make sure its version matches your
   server.
 

@@ -70,4 +70,4 @@ public final class QuestHook {
 
 There are no events for when a cutscene starts or ends yet. To run something at
 the end, add a `console` [timeline event](timeline-events.md) at the cutscene's
-last second; it also runs when the cutscene is skipped.
+last second. It also runs when the cutscene is skipped.

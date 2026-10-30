@@ -4,7 +4,7 @@
 
 | | |
 |---|---|
-| Server | Paper 1.20 – 1.21.x or a Paper fork (Spigot is not supported) |
+| Server | Paper 1.20-1.21.x or a Paper fork (Spigot is not supported) |
 | Java | 21 |
 | Required plugin | [PacketEvents](https://modrinth.com/plugin/packetevents) 2.7+ |
 | Optional | Any permission plugin, e.g. LuckPerms |

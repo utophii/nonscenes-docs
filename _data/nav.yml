@@ -1,0 +1,20 @@
+- title: Guide
+  pages:
+    - { title: Overview, url: / }
+    - { title: Getting started, url: /getting-started }
+    - { title: Recording, url: /recording }
+    - { title: Keyframe editor, url: /keyframe-editor }
+    - { title: Timeline events, url: /timeline-events }
+    - { title: Triggers, url: /triggers }
+    - { title: Playback, url: /playback }
+- title: Reference
+  pages:
+    - { title: Commands, url: /commands }
+    - { title: Permissions, url: /permissions }
+    - { title: Configuration, url: /configuration }
+    - { title: Messages, url: /messages }
+    - { title: Storage, url: /storage }
+    - { title: FAQ, url: /faq }
+- title: Developers
+  pages:
+    - { title: API, url: /api }

@@ -36,7 +36,7 @@ Keyframe numbers start at 1. Tab completion suggests valid numbers.
 | `/ns key add [#]` | Add a keyframe at your position and view. Without `#` it is appended at the end. |
 | `/ns key move <#>` | Move keyframe `#` to your position and view. |
 | `/ns key remove <#>` | Remove keyframe `#`. |
-| `/ns key speed <#> <seconds>` | How long the camera takes from keyframe `#` to `#+1`, 0.05–600 s. `2` and `2s` both work. |
+| `/ns key speed <#> <seconds>` | How long the camera takes from keyframe `#` to `#+1`, 0.05-600 s. `2` and `2s` both work. |
 | `/ns key tp <#>` | Teleport to keyframe `#`, looking the way the camera does there. |
 | `/ns key list` | List keyframes with their times. |
 

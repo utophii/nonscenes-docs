@@ -1,6 +1,6 @@
 # nonscenes documentation
 
-Camera cutscenes for Paper 1.20 – 1.21.x. This documentation covers nonscenes 1.0.0.
+Camera cutscenes for Paper 1.20-1.21.x. This documentation covers nonscenes 1.0.0.
 
 ## Server owners
 

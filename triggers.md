@@ -30,7 +30,7 @@ triggers:
 
 Each key becomes a command that plays the cutscene for whoever runs it. Command
 names may contain lowercase letters, digits, `_` and `-`. They need no
-permission; if you want to restrict them, use your permission plugin's command
+permission. To restrict them, use your permission plugin's command
 blocking or play the cutscene through `/ns play`.
 
 ## Regions
@@ -51,7 +51,7 @@ triggers:
 ```
 
 Fires when a player walks into the box from outside it. Standing inside doesn't
-retrigger it; leaving and walking back in does, unless `once` is true. Corner
+retrigger it. Leaving and walking back in does, unless `once` is true. Corner
 order doesn't matter.
 
 With `once: true`, the plugin remembers who has seen it in

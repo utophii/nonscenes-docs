@@ -35,7 +35,7 @@ subcommand, because it is the permission of `/nonscene` itself.
 /lp group default permission set nonscene.skip true
 ```
 
-Sneak-to-skip only checks `nonscene.skip`; `nonscene.use` is only needed to type
+Sneak-to-skip only checks `nonscene.skip`. `nonscene.use` is only needed to type
 `/ns skip`. Triggers and `/ns play <name> <player>` from the console or another
 plugin don't need any permission from the viewer.
 

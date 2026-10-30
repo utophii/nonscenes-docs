@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- assign current = page.url | remove: ".html" -%}
+  <title>{% if current == "/" %}{{ site.title }} docs{% else %}{{ page.title }} · {{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <label class="menu-toggle" for="menu">Menu</label>
+  </header>
+  <input type="checkbox" id="menu" hidden>
+  <div class="layout">
+    <nav class="sidebar">
+      {%- for group in site.data.nav %}
+      <p class="group">{{ group.title }}</p>
+      <ul>
+        {%- for item in group.pages %}
+        <li><a href="{{ item.url | relative_url }}"{% if item.url == current %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {%- endfor %}
+      </ul>
+      {%- endfor %}
+    </nav>
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

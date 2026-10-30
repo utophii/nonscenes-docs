@@ -15,14 +15,14 @@ prefix: "&8[&#3498db&lnonscenes&8] &r"
 cutscene-playing: "${prefix}&#2ecc71Playing cutscene &#f39c12{name}&#2ecc71..."
 ```
 
-Titles in [timeline events](timeline-events.md) also accept MiniMessage; chat
+Titles in [timeline events](timeline-events.md) also accept MiniMessage, chat
 messages don't.
 
 ## Placeholders
 
 Placeholders in braces such as `{name}`, `{player}`, `{seconds}` or `{frames}`
 are filled in by the plugin. Each message supports the placeholders that appear
-in its default text; others are left as they are.
+in its default text, others are left as they are.
 
 ## Lists
 

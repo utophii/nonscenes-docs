@@ -14,7 +14,7 @@ Needs `nonscene.event`. Works from the console too.
 ```
 
 `<seconds>` may be a decimal, e.g. `2.5`. There is no command to remove a single
-event; use `clear` and add the rest again, or edit an [exported](storage.md#export-and-import)
+event. Use `clear` and add the rest again, or edit an [exported](storage.md#export-and-import)
 file.
 
 ## Event types

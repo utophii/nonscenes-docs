@@ -1,0 +1,27 @@
+title: nonscenes
+description: Camera cutscenes for Paper servers
+url: https://utophii.github.io
+baseurl: /nonscenes-docs
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+
+relative_links:
+  enabled: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - LICENSE

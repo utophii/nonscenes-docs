@@ -1,0 +1,38 @@
+nonscenes License
+
+Copyright (c) 2025 nonxedy. All rights reserved.
+
+nonscenes ("the Software") is distributed as a compiled plugin. By downloading
+or using it you agree to the following terms.
+
+You MAY:
+
+1. Use the Software on any number of Minecraft servers you own or operate,
+   including commercial servers.
+2. Write plugins or other software that interact with the Software through its
+   public API, and distribute that software, as long as you don't include the
+   Software or any part of it.
+3. Use, share and modify cutscenes, configuration files and exported files
+   created with the Software.
+
+You MAY NOT:
+
+1. Redistribute, sell, sublicense, rent or share the Software or any part of it,
+   whether modified or not, including by uploading it to other websites. Link to
+   the official download page instead.
+2. Decompile, disassemble, reverse engineer or modify the Software, except where
+   applicable law permits it regardless of this restriction.
+3. Remove or alter this license or copyright notices.
+4. Claim the Software, or work derived from it, as your own.
+
+The Software collects anonymous usage statistics and error reports through
+FastStats, as described in its documentation.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+The author may end your rights under this license if you break its terms.

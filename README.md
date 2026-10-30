@@ -30,4 +30,4 @@ Found a bug or have a question? [Open an issue](https://github.com/utophii/nonsc
 
 ---
 
-nonscenes is proprietary software. Copyright (c) 2025 nonxedy. All rights reserved.
+nonscenes is proprietary software. Copyright (c) 2026 utophii. All rights reserved.
